@@ -1,1 +1,6 @@
+# Database
 DATABASE_URL="file:./dev.db"
+
+# Github
+GITHUB_CLIENT_ID="b32d51f27459307323f8"
+GITHUB_CLIENT_SECRET="b8fb7979da1e784af98cff3c89cbc582cba812ee"
