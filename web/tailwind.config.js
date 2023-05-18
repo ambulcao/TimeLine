@@ -72,7 +72,7 @@ module.exports = {
           700: '#b5882d',
           800: '#8c6923',
           900: '#6b501b',
-        }
+        },
       },
 
       backgroundImage: {
