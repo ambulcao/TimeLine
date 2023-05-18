@@ -37,9 +37,15 @@ export default function Home() {
         </div>
 
          {/** Copyright */}
-         <div>
+         <div className='text-sm leading-relaxed text-gray-200'>
           Feito com 💜 no NLW da{''}
-          <a href="https://rocketseat.com.br">Rocketseat</a>
+          <a
+            target='_blank'
+            rel="noreferrer"
+            className='underline hover:text-gray-100' 
+            href="https://rocketseat.com.br">
+            Rocketseat
+          </a>
          </div>
       </div>
 
@@ -47,7 +53,7 @@ export default function Home() {
       <div className="flex flex-col p-16 bg-[url(../assets/bg-stars.svg)] bg-cover">
         <div className="flex flex-1 items-center justify-center">
           <p className="text-center leading-relexad w-[360px]">
-            Você ainda não registrou nenhuma lembrança, comece a{''} 
+            Você ainda não registrou nenhuma lembrança, comece a {''} 
             <a href='' className="underline hover: text-gray-50">criar agora!</a>
           </p>
         </div>
